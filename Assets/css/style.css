@@ -1,0 +1,80 @@
+/* Cambios Universales a la pagina */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 11px;
+}
+
+/* Color base (fondo) de la pagina */
+body {
+    background-color: bisque;
+}
+
+/* Titulo Principal (Header) */
+header {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    padding: 20px;
+    background-color: rgb(40, 155, 107);
+}
+
+/* Barra de Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background-color: rgb(18, 216, 150);
+
+
+}
+
+/* Contenido Principal de la pagina web */
+main {
+    border-style: solid;
+    background-color: rgb(6, 255, 151);
+}
+
+/* Contenedor de los article y asides (Section) */
+section {
+    background-color: rgb(226, 117, 54);
+    border-style: solid;
+    text-align: center;
+    display: flex;
+    margin: 8px;
+
+}
+
+/* Contenido principal del section (Article)  */
+article {
+    border-style: solid;
+    float: left;
+    width: 70%;
+    background-color: rgb(240, 211, 116);
+    padding: 75px;
+    text-align: center;
+
+}
+
+/* Contenido secundario del section (Aside) */
+aside {
+    border-style: solid;
+    float: right;
+    width: 25%;
+    background-color: rgb(22, 240, 58);
+    text-align: center;
+    margin: 8 px;
+
+}
+
+/* Pie de pagina (FINAL-FOOTER) */
+footer {
+    text-align: center;
+    border-style: solid;
+    background-color: rgb(255, 60, 11);
+}
+
+#content{
+    border-style: solid;
+    padding: 6px;
+    background-color: rgb(151, 172, 145);
+}
